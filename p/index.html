@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Johna's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/db0757bf14.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="flex justify-between">
+      <div class="flex items-center">
+        <h1
+          class="text-xl text-white font-medium mx-5 py-1 px-3 shadow rounded-lg"
+          style="background-color: #8a3076"
+        >
+          Johna's Portfolio
+        </h1>
+      </div>
+      <ul class="flex gap-4">
+        <li class="p-5">
+          <a href="#About" class="text-lg font-medium">About</a>
+        </li>
+        <li class="p-5">
+          <a href="#Skills" class="text-lg font-medium">Skills</a>
+        </li>
+        <li class="p-5">
+          <a href="#Contacts" class="text-lg font-medium">Contacts</a>
+        </li>
+        <li class="p-5">
+          <a href="#Proj" class="text-lg font-medium">Projects</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="flex justify-between items-center px-20">
+      <div class="me">
+        <h2 class="font-medium">Johna Grace <br />Doctora</h2>
+        <div class="rounded bg-pink-500" style="background-color: #8a3076">
+          <p
+            class="text-white text-xl text-center font-medium p-2 drop-shadow-md"
+          >
+            GRAPHICS DESIGNER
+          </p>
+        </div>
+      </div>
+      <img src="johna.png" alt="img" class="rounded-full" />
+    </section>
+
+    <div class="grid justify-center" id="About">
+      <h1 class="pb-5">About me</h1>
+      <div class="abt">
+        <p class="text-center leading-loose text-xl italic pb-7">
+          I am a graphic designer who brings a unique blend of artistic vision
+          and technical expertise to every project. I have an innate ability to
+          create visual narratives that captivate audiences by the strategic use
+          of color theory, or the careful arrangement of layout elements. I
+          thrive on collaboration, seamlessly integrating client objectives and
+          feedback into my designs. Combining innovation with a keen attention
+          to detail, I pride myself on delivering designs that resonate with
+          viewers, spark conversations, and leave an indelible mark.
+        </p>
+      </div>
+    </div>
+
+    <div class="h-screen" id="Skills" style="margin-bottom: 0">
+      <h1 class="pb-6">Skills</h1>
+      <div class="sk pb-8">
+        <div class="box">
+          <h5>Creativity</h5>
+          <h5>Typography</h5>
+          <h5>Color theory</h5>
+        </div>
+        <div class="box">
+          <h5>Software proficiency</h5>
+          <h5>Composition and layout</h5>
+          <h5>Image editing</h5>
+        </div>
+        <div class="box">
+          <h5>Time Management</h5>
+          <h5>Attention to detail</h5>
+          <h5>Problem-solving</h5>
+        </div>
+      </div>
+
+      <h6 class="pb-5 pt-8">Tools that I commonly use:</h6>
+      <div class="grid-container pt-5">
+        <div class="grid-item"><img src="img/canva.png" alt="Canva" /></div>
+        <div class="grid-item">
+          <img src="img/illus.png" alt="Illustrator" />
+        </div>
+        <div class="grid-item"><img src="img/lr.png" alt="Lightroom" /></div>
+        <div class="grid-item">
+          <img src="img/vs.png" alt="Visual Studio" />
+        </div>
+        <div class="grid-item"><img src="img/figma.png" alt="Figma" /></div>
+        <div class="grid-item"><img src="img/ps.png" alt="Photoshop" /></div>
+      </div>
+    </div>
+
+    <div class="h-screen" id="Contacts">
+      <h1 class="pb-5">Contacts</h1>
+      <div class="contact-info">
+        <p class="pb-5">
+          <i class="far fa-envelope"></i> johnagrace05@gmail.com
+        </p>
+        <p class="pb-5"><i class="fa-solid fa-phone"></i> 09512208494</p>
+        <p class="pb-5">
+          <a href="https://www.instagram.com/gjhnadctra/"
+            ><i class="fab fa-instagram"></i> Instagram</a
+          >
+        </p>
+        <p class="pb-5">
+          <a href="https://www.facebook.com/gjhnadctra/"
+            ><i class="fab fa-facebook-f"></i> Facebook</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <div id="Proj">
+      <h1>Recent Projects</h1>
+
+      <div class="project">
+        <h2>Video Stream</h2>
+        <p>
+          Video streams provide real-time transmission of audio and visual
+          information, offering a dynamic and immersive experience that conveys
+          rich details and information.
+        </p>
+        <a href="projects/Video Stream.zip" download>Download Project 1</a>
+      </div>
+
+      <div class="project">
+        <h2>FlexiGym</h2>
+        <p>
+          FlexiGym is an all-inclusive fitness website that offers an extensive
+          exercise library, personalized fitness plans, and interactive workout
+          tracking to help you achieve your health and wellness goals.
+        </p>
+        <a href="projects/FlexiGym.zip" download>Download Project 2</a>
+      </div>
+
+      <div class="project">
+        <h2>Movie Flix</h2>
+        <p>
+          Movie Flix is an online streaming platform that offers a vast
+          selection of movies, providing users with in-depth information,
+          detailed descriptions, and additional content to enhance their viewing
+          experience.
+        </p>
+        <a href="projects/Movie Flix.zip" download>Download Project 3</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <footer class="text-white py-10 text-center">
+        <div class="container mx-auto">
+          <h2 class="text-xl font-bold mb-5">Hire Me</h2>
+          <p class="text-lg">
+            If you're interested in working together or have any inquiries, feel
+            free to reach out!
+          </p>
+          <a
+            href="#Contacts"
+            class="text-lg font-medium mt-5 inline-block bg-white text-gray-800 px-6 py-3 rounded-lg hover:bg-gray-200 transition duration-300"
+            >Contact Me</a
+          >
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+  </body>
+</html>
